@@ -1,18 +1,28 @@
 {
-  "name": "@parcel-vue-ts/template",
-  "version": "1.0.3",
-  "description": "parcel-vue-ts template",
-  "main": "index.ts",
-  "scripts": {
-    "dev": "parcel serve src/index.html -d dist --public-url /dist/ --open",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html -d build --public-url .",
-    "clean": "rimraf .cache/ && rimraf dist/ && rimraf build/",
-    "test:unit": "jest --no-cache",
-    "test:coverage": "jest --no-cache --coverage",
-    "predeploy": "npm run build"
+  "_id": "@parcel-vue-ts/template@1.0.3",
+  "_inBundle": true,
+  "_location": "/@parcel-vue-ts/cli/@parcel-vue-ts/template",
+  "_phantomChildren": {},
+  "_requiredBy": [
+    "/@parcel-vue-ts/cli"
+  ],
+  "author": {
+    "name": "Masonz",
+    "email": "masonzone@gmail.com"
   },
-  "author": "Masonz <masonzone@gmail.com>",
-  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.0"
+  },
+  "description": "parcel-vue-ts template",
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "^6.26.0",
@@ -34,18 +44,6 @@
     "vue-template-compiler": "^2.5.13",
     "vue-test-utils": "^1.0.0-beta.11"
   },
-  "dependencies": {
-    "vue": "^2.5.13",
-    "vue-class-component": "^6.2.0",
-    "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
-    "vuex-class": "^0.3.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
   "jest": {
     "moduleFileExtensions": [
       "js",
@@ -59,7 +57,19 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   },
+  "license": "MIT",
+  "main": "index.ts",
+  "name": "@parcel-vue-ts/template",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production parcel build src/index.html -d build --public-url .",
+    "clean": "rimraf .cache/ && rimraf dist/ && rimraf build/",
+    "dev": "parcel serve src/index.html -d dist --public-url /dist/ --open",
+    "predeploy": "npm run build",
+    "test:coverage": "jest --no-cache --coverage",
+    "test:unit": "jest --no-cache"
+  },
+  "version": "1.0.3"
 }
