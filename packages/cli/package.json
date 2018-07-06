@@ -1,6 +1,6 @@
 {
-  "name": "@parcel-vue-ts/cli",
-  "version": "1.0.4",
+  "name": "@neocxf/parcel-vue-ts",
+  "version": "1.0.5",
   "description": "Parcel-vue-ts command line",
   "main": "index.js",
   "author": "Masonz <masonzone@gmail.com>",
@@ -20,7 +20,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@parcel-vue-ts/template": "^1.0.3",
+    "@parcel-vue-ts/template": "^1.0.4",
     "chalk": "^2.3.2",
     "inquirer": "^5.1.0",
     "ora": "^2.0.0",
