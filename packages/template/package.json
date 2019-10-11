@@ -59,7 +59,7 @@
   },
   "license": "MIT",
   "main": "index.ts",
-  "name": "@parcel-vue-ts/template",
+  "name": "@neocxf/parcel-vue-ts-template",
   "publishConfig": {
     "access": "public"
   },
